@@ -4,8 +4,7 @@ import {
   getPokemonQuery,
 } from "./queries";
 
-const PROXY_URL = "https://stark-ravine-60456.herokuapp.com/";
-const API = PROXY_URL + "https://beta.pokeapi.co/graphql/v1beta";
+const API = "https://beta.pokeapi.co/graphql/v1beta";
 const IMAGE =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork";
 
